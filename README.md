@@ -6,9 +6,11 @@
 
 # HOW TO RECREATE THE SHINY APPLICATION
 
-Markup : 1. Install R and RStudio on your local computer
-Markup : 2. Run the Setup-script provided within the repository. When running this script all necessary packages will be installed.
-Markup : 3. Run the Shiny application, which is an R-script provided within the repository. 
+1. Install R and RStudio on your local computer
+
+2. Run the Setup-script provided within the repository. When running this script all necessary packages will be installed.
+
+3. Run the Shiny application, which is an R-script provided within the repository. 
 
 # PROOF OF CONCEPT VIDEO
 Watch this video to see how the application works. Click on the link below to watch the proof of concept video:
