@@ -8,9 +8,11 @@
 
 1. Install R and RStudio on your local computer
 
-2. Run the Setup-script provided within the repository. When running this script all necessary packages will be installed.
+2. Clone this repository to your local computer. This is done by clicking the green button named "Code" and copy the HTTPS-link. Now go to your bash on your local computer and navigate the location you want the repository to be using the cd-command, e.g. cd /Users/YourName/SomeFolder. When you have navigated to the preferred location you simply write git clone and paste the HTTPS-link and press ENTER like so: git clone https://github.com/sofieditmer/CulturalDataScienceExam2020.git ENTER
 
-3. Run the Shiny application, which is an R-script provided within the repository. 
+2. In RStudio run the Setup-script provided within the repository. When running this script all necessary packages will be installed.
+
+3. In RStudio run the Shiny application, which is an R-script provided within the repository. 
 
 # Proof-of-Concept Video
 Watch this video to see how the application works. Click on the link below to watch the proof of concept video:
