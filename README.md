@@ -16,7 +16,7 @@
 
 # Proof-of-Concept Video
 Watch this video to see how the application works. Click on the link below to watch the proof of concept video:
-[![Watch the video](https://github.com/sofieditmer/CulturalDataScienceExamProject2020/blob/main/Sk%C3%A6rmbillede%202020-12-03%20kl.%2011.39.22.png)](https://youtu.be/k36jzNu2fNI)
+[![Watch the video](https://github.com/sofieditmer/CulturalDataScienceExamProject2020/blob/main/Sk%C3%A6rmbillede%202020-12-03%20kl.%2011.39.22.png)](https://youtu.be/o_xUvygcZ10)
 
 # LICENSE 
 [MIT](https://github.com/sofieditmer/CulturalDataScienceExam2020/blob/main/LICENSE.md)
