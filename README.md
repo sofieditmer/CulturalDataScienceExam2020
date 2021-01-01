@@ -12,9 +12,9 @@
 
 3. Download this model to your local computer and place it in your repository: https://drive.google.com/uc?export=download&id=16L6WTOHk81qgkX7gT7XSPBtBr_qK4p-F. It is very important that this model is in the same location as the shiny app script in order to the shiny app to work properly.
 
-4. In RStudio run the Setup-script provided within the repository. When running this script all necessary packages will be installed.
+4. In RStudio run the Setup-script provided within the repository: https://github.com/sofieditmer/CulturalDataScienceExam2020/blob/main/Setup-Script.Rmd. Running this script ensures that all necessary packages are installed in order to run the shiny application.
 
-5. In RStudio run the Shiny application, which is an R-script provided within the repository. 
+5. In RStudio run the Shiny application, which is an R-script provided within the repository:  
 
 # Proof-of-Concept Video
 Watch this video to see how the application works. Click on the link below to watch the proof of concept video:
