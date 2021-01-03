@@ -1,0 +1,44 @@
+---
+# ====================== SETUP SCRIPT: RUN THIS BEFORE RUNNING THE R SHINY APP ============================== #
+---
+
+It is very important that you run this script before running the Shiny Application. Make sure that you have downloaded the coNLL17-model from the GitHub repository and place the file in the same location as the Shiny Application script. 
+
+Install and load necessary packages:
+```{r}
+install.packages("pacman")
+library(pacman)
+if(!require("devtools")) install.packages("devtools")
+devtools::install_github("Guscode/Sentida") # Install Sentida
+pacman::p_load(shiny,
+               NLP,
+               stats,
+               graphics,
+               stats,
+               utils,
+               tidytext,
+               shinydashboard, 
+               shinyBS,
+               tm, 
+               dplyr, 
+               tidytext,
+               plotly, 
+               wordcloud2, 
+               word2vec,
+               ggplot2,
+               highcharter,
+               ape,
+               shinyjs, 
+               colourpicker,
+               Sentida,
+               shinycssloaders,
+               shinybusy,
+               shinyWidgets)
+```
+
+The coNLL17-model must be present within your R environment in order for the semantic similarity functionalities to work. Make sure that you have downloaded coNLL17-model from the GitHub repository and place it in the same location as the R Shiny Application Script.
+```{r}
+# Load the model
+coNLL17_model <- read.word2vec(file = "coNLL17_model.bin", normalize = TRUE)
+```
+
